@@ -65,3 +65,29 @@ a {
   color: var(--textColor);
 }
 
+a:hover {
+  text-shadow: 0 0px 10px ivory;
+}
+
+@media screen and (max-width: 768px) {
+  .detailContainer {
+    flex-direction: column;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .details > p {
+    width:100%;
+  }
+
+  .aboutPhoto {
+    height: auto;
+    width: 768px;
+  }
+  .photoOfMe {
+    height: auto;
+    width: 480px;
+  }
+}
