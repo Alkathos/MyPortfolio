@@ -86,7 +86,6 @@ a:hover {
     display: none;
   }
   .photoOfMe {
-    height: auto;
-    width: 480px;
+    object-fit: cover;
   }
 }
