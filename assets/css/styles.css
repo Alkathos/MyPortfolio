@@ -83,8 +83,7 @@ a:hover {
   }
 
   .aboutPhoto {
-    height: auto;
-    width: 768px;
+    display: none;
   }
   .photoOfMe {
     height: auto;
