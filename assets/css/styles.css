@@ -13,11 +13,6 @@ aside {
   display: inline;
 }
 
-header {
-  padding: 3px 0;
-  text-align: right;
-}
-
 .detailContainer {
   display: flex;
   flex-direction: row;
@@ -67,6 +62,7 @@ a {
 
 a:hover {
   text-shadow: 0 0px 10px ivory;
+  color: var(--textColor);
 }
 
 @media screen and (max-width: 768px) {
