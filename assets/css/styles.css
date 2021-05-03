@@ -9,24 +9,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, "Helvetica Neue", sans-serif;
 }
 
-aside {
-  display: inline;
-}
-
-.detailContainer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.details > p {
-    padding-left: 5px;
-    font-weight: 300;
-    letter-spacing: 0.05em;
-    color: var(--textColor);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, "Helvetica Neue", sans-serif;
-    width: 40%;
+.card{
+  width: 25%
 }
 
 .home > p {
@@ -37,10 +21,6 @@ aside {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, "Helvetica Neue", sans-serif;
 }
 
-.aboutPhoto {
-  height: 480px;
-  width: 700px;
-}
 .photoOfMe {
   height: 650px;
   width: 480px;
@@ -56,9 +36,6 @@ footer {
   margin: 0 5px;
 }
 
-a {
-  color: var(--textColor);
-}
 
 a:hover {
   text-shadow: 0 0px 10px ivory;

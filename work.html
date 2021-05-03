@@ -4,17 +4,17 @@
 
 <head>
     <title>I'm Fernando, Welcome!</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha512-t38vG/f94E72wz6pCsuuhcOPJlHKwPy+PY+n1+tJFzdte3hsIgYE7iEpgg/StngunGszVMrRfvwZinrza0vMTA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header>
-         <nav>
-            <ul class="social">
+         <nav class="blue-grey darken-4">
+            <ul>
                 <li><a class="flow-text" href="index.html">Home</a></li>
-                <li><a class="flow-text" href="about.html">About</a></li>
                 <li class="active"><a class="flow-text" href="work.html">Works</a></li>
                 <li><a class="flow-text" href="photography.html">Photography</a></li>
               </ul>
@@ -22,7 +22,38 @@
     </header>
 
     <div>
-        <p>Work in progress</p>
+      <div class="row">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets\img\node.PNG">
+            <span class="card-title" style="background-color: black;">README Generator</span>
+          </div>
+          <div class="card-content">
+            <p style="color: black;">This is a README generator that helps with creating a READEME file for a developer
+            so they can spend more time on developing as opposed to dedicating time on creating one from scratch.</p>
+          </div>
+          <div class="card-action">
+            <a target="_blank" href="https://github.com/Alkathos/README-Generator">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets\img\node.PNG">
+            <span class="card-title" style="background-color: black;">Laugh Generator</span>
+          </div>
+          <div class="card-content">
+            <p style="color: black;">This was a group project created with fellow classmates. We created a a simple
+            joke and meme generator that calls on certain APIs to produce images(memes) or jokes.</p>
+          </div>
+          <div class="card-action">
+            <a target="_blank" href="https://github.com/Alkathos/Laugh-Generator">GitHub</a>
+            <a target="_blank" href="https://alkathos.github.io/Laugh-Generator/">Git Pages</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div>
@@ -34,6 +65,8 @@
       </footer>
       </div>
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/materialize/js/materialize.min.js"></script>
 </body>
 
 </html>
