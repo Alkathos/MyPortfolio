@@ -47,6 +47,17 @@ a:hover {
     flex-direction: column;
   }
 
+  .container {
+    flex-direction: column;
+    margin-top: 15%;
+  }
+
+  .row {
+    flex-direction: column;
+    padding: 40px;
+    width: 300%;
+  }
+
   nav {
     text-align: center;
   }
@@ -55,9 +66,6 @@ a:hover {
     width:100%;
   }
 
-  .aboutPhoto {
-    display: none;
-  }
   .photoOfMe {
     object-fit: cover;
   }
