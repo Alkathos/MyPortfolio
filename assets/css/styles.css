@@ -9,6 +9,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, "Helvetica Neue", sans-serif;
 }
 
+.img-bg {
+  background-size: cover;
+}
+
 .card{
   width: 25%
 }
